@@ -7,3 +7,10 @@ class Solution:
             temp = temp//10
         if (x==revx): return True
         else: return False
+
+
+#Converting to string and then checking
+class Solution:
+    def isPalindrome(self, x: int) -> bool:
+        xstr = str(x)
+        return xstr==xstr[::-1]
