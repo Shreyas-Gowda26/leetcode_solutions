@@ -9,7 +9,7 @@ class Solution:
         else: return False
 
 
-#Converting to string and then checking
+
 class Solution:
     def isPalindrome(self, x: int) -> bool:
         xstr = str(x)
