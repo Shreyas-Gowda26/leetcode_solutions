@@ -1,3 +1,4 @@
+#This contains duplicates
 class Solution:
     def search(self, nums: List[int], target: int) -> bool:
         low = 0
@@ -6,7 +7,7 @@ class Solution:
             mid = (low+high)//2
             if nums[mid]==target:
                 return True
-            if nums[low]==nums[mid] and nums[mid]==nums[high]:
+            if nums[low]==nums[mid] and nums[mid]==nums[high]: #We'll add only this condition!
                 low+=1
                 high-=1
                 continue
