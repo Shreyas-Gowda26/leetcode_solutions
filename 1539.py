@@ -1,3 +1,18 @@
+#Brute-Force Solution
+class Solution:
+    def findKthPositive(self, arr: List[int], k: int) -> int:
+        missing = 0
+        i = 1
+
+        while True:
+            if i not in arr:
+                missing += 1
+
+            if missing == k:
+                return i
+
+            i += 1
+#Using Binary search since the array is sorted!
 class Solution:
     def findKthPositive(self, arr: List[int], k: int) -> int:
         low, high = 0, len(arr) - 1
