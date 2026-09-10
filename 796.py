@@ -1,3 +1,4 @@
+#Optimal approach
 class Solution:
     def rotateString(self, s: str, goal: str) -> bool:
         # Check if strings are of the same length
