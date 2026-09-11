@@ -3,5 +3,4 @@ class Solution:
         if len(s) != len(s):
             return False  
         doubled_s = s + s  # Concatenate s with itself
-        return goal in doubled_s  # Check if goal is a substring of s + s
-        
+        return t in doubled_s  # Check if t is a substring of s + s
