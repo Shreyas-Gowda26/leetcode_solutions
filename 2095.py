@@ -23,7 +23,7 @@ class Solution:
             temp = temp.next
         return head
     
-    #Optimal 
+    #Optimal Approach
     # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, val=0, next=None):
