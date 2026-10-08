@@ -1,3 +1,4 @@
+# Optimal approach
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         if len(s) < 2:
